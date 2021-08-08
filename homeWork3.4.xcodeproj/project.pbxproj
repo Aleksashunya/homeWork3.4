@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A130F6326BFC69B00399564 /* CheckMeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A130F6226BFC69B00399564 /* CheckMeButton.swift */; };
+		7A130F6526BFC83700399564 /* AgainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A130F6426BFC83700399564 /* AgainButton.swift */; };
 		7A93499E26BE4FF00000E0A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A93499D26BE4FF00000E0A7 /* AppDelegate.swift */; };
 		7A9349A026BE4FF00000E0A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A93499F26BE4FF00000E0A7 /* SceneDelegate.swift */; };
 		7A9349A226BE4FF00000E0A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9349A126BE4FF00000E0A7 /* ContentView.swift */; };
 		7A9349A426BE4FF00000E0A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A9349A326BE4FF00000E0A7 /* Assets.xcassets */; };
 		7A9349A726BE4FF00000E0A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A9349A626BE4FF00000E0A7 /* Preview Assets.xcassets */; };
 		7A9349AA26BE4FF00000E0A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A9349A826BE4FF00000E0A7 /* LaunchScreen.storyboard */; };
+		7A9349B226BE58D00000E0A7 /* GameSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9349B126BE58D00000E0A7 /* GameSlider.swift */; };
+		7A9349B826BED3190000E0A7 /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9349B726BED3190000E0A7 /* CustomSlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A130F6226BFC69B00399564 /* CheckMeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckMeButton.swift; sourceTree = "<group>"; };
+		7A130F6426BFC83700399564 /* AgainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgainButton.swift; sourceTree = "<group>"; };
 		7A93499A26BE4FF00000E0A7 /* homeWork3.4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = homeWork3.4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A93499D26BE4FF00000E0A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A93499F26BE4FF00000E0A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,8 @@
 		7A9349A626BE4FF00000E0A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7A9349A926BE4FF00000E0A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A9349AB26BE4FF00000E0A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A9349B126BE58D00000E0A7 /* GameSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSlider.swift; sourceTree = "<group>"; };
+		7A9349B726BED3190000E0A7 /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				7A9349A826BE4FF00000E0A7 /* LaunchScreen.storyboard */,
 				7A9349AB26BE4FF00000E0A7 /* Info.plist */,
 				7A9349A526BE4FF00000E0A7 /* Preview Content */,
+				7A9349B126BE58D00000E0A7 /* GameSlider.swift */,
+				7A9349B726BED3190000E0A7 /* CustomSlider.swift */,
+				7A130F6226BFC69B00399564 /* CheckMeButton.swift */,
+				7A130F6426BFC83700399564 /* AgainButton.swift */,
 			);
 			path = homeWork3.4;
 			sourceTree = "<group>";
@@ -145,6 +157,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A9349B226BE58D00000E0A7 /* GameSlider.swift in Sources */,
+				7A9349B826BED3190000E0A7 /* CustomSlider.swift in Sources */,
+				7A130F6326BFC69B00399564 /* CheckMeButton.swift in Sources */,
+				7A130F6526BFC83700399564 /* AgainButton.swift in Sources */,
 				7A93499E26BE4FF00000E0A7 /* AppDelegate.swift in Sources */,
 				7A9349A026BE4FF00000E0A7 /* SceneDelegate.swift in Sources */,
 				7A9349A226BE4FF00000E0A7 /* ContentView.swift in Sources */,
@@ -291,6 +307,7 @@
 				DEVELOPMENT_TEAM = J3726986L3;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = homeWork3.4/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,7 +315,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Melasha.homeWork3-4";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,6 +329,7 @@
 				DEVELOPMENT_TEAM = J3726986L3;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = homeWork3.4/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,7 +337,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Melasha.homeWork3-4";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
