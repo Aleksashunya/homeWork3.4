@@ -45,6 +45,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A130F6626BFF0A100399564 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7A9349A126BE4FF00000E0A7 /* ContentView.swift */,
+				7A9349B726BED3190000E0A7 /* CustomSlider.swift */,
+				7A9349B126BE58D00000E0A7 /* GameSlider.swift */,
+				7A130F6226BFC69B00399564 /* CheckMeButton.swift */,
+				7A130F6426BFC83700399564 /* AgainButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7A130F6726BFF0BF00399564 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				7A93499D26BE4FF00000E0A7 /* AppDelegate.swift */,
+				7A93499F26BE4FF00000E0A7 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
 		7A93499126BE4FEF0000E0A7 = {
 			isa = PBXGroup;
 			children = (
@@ -64,17 +85,12 @@
 		7A93499C26BE4FF00000E0A7 /* homeWork3.4 */ = {
 			isa = PBXGroup;
 			children = (
-				7A93499D26BE4FF00000E0A7 /* AppDelegate.swift */,
-				7A93499F26BE4FF00000E0A7 /* SceneDelegate.swift */,
-				7A9349A126BE4FF00000E0A7 /* ContentView.swift */,
+				7A130F6726BFF0BF00399564 /* Delegates */,
+				7A130F6626BFF0A100399564 /* Views */,
 				7A9349A326BE4FF00000E0A7 /* Assets.xcassets */,
 				7A9349A826BE4FF00000E0A7 /* LaunchScreen.storyboard */,
 				7A9349AB26BE4FF00000E0A7 /* Info.plist */,
 				7A9349A526BE4FF00000E0A7 /* Preview Content */,
-				7A9349B126BE58D00000E0A7 /* GameSlider.swift */,
-				7A9349B726BED3190000E0A7 /* CustomSlider.swift */,
-				7A130F6226BFC69B00399564 /* CheckMeButton.swift */,
-				7A130F6426BFC83700399564 /* AgainButton.swift */,
 			);
 			path = homeWork3.4;
 			sourceTree = "<group>";
